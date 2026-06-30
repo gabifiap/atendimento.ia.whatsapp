@@ -30,29 +30,11 @@ O backend foi desenvolvido em Python com FastAPI.
 - Twilio WhatsApp API
 - Modelfile + dataset próprio para treinamento do comportamento
 
-## Como testar localmente
+## Como testar
 
-```bash
-git clone https://github.com/gabifiap/chatbot-whatsapp-ia.git
-cd chatbot-whatsapp-ia
-python -m venv venv
-.\venv\Scripts\Activate  # Windows
-pip install -r requirements.txt
-```
+Escaneie o QR code acima ou mande **"join advice-related"** para o número **+1 415 523 8886** no WhatsApp. Depois é só conversar normalmente.
 
-Crie um arquivo `.env` com suas credenciais:
-
-```
-TWILIO_ACCOUNT_SID=seu_sid
-TWILIO_AUTH_TOKEN=seu_token
-GEMINI_API_KEY=sua_chave
-```
-
-```bash
-uvicorn main:app --reload
-```
-
-Configure o webhook da Twilio Sandbox apontando para `https://seu-ngrok.ngrok-free.app/webhook`.
+O serviço está hospedado no Render e roda 24 horas por dia, sem depender de nenhuma máquina local: [atendimento-ia-whatsapp.onrender.com](https://atendimento-ia-whatsapp.onrender.com)
 
 ## Próximos passos
 
