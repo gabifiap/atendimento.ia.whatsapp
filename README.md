@@ -6,7 +6,8 @@ Assistente virtual de atendimento ao cliente desenvolvido para funcionar diretam
 
 > ⚠️ Por ser um ambiente de testes (Twilio Sandbox), é necessário enviar esse código uma vez antes de começar a conversar. Depois disso, é só mandar sua dúvida normalmente.
 
-![QR Code da Sandbox](./qrcode.png)
+<img width="218" height="214" alt="image" src="https://github.com/user-attachments/assets/4c4f2a99-6a18-45ee-b703-93f5723be412" />
+
 
 ## Sobre o projeto
 
